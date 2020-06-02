@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">rabby_mobile_ca2</string>
+    <string name="load_data_string">Load Data</string>
+    <string name="todo">TODO</string>
+    <string name="iii">yo</string>
+    <string name="download">Download</string>
+    <string name="teamLogo">team logo</string>
+    <string name="view_list_string">saved fixtures</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="teambadge">team badge</string>
+    <string name="search">search</string>
+    <string name="fixtures">Fixtures</string>
+    <string name="vs">V</string>
+    <string name="fixturesString">Fixtures</string>
+</resources>

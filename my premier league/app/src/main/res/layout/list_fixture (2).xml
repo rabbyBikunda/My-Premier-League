@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="4dp">
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="284dp"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="84dp"
+            android:text="2019-12-26"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.945"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.503" />
+
+        <ImageView
+            android:id="@+id/awayTeamBadge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="118dp"
+            android:src="@mipmap/ic_launcher">
+
+
+        </ImageView>
+
+
+
+        <TextView
+            android:id="@+id/home_team_name"
+            android:layout_width="165dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="125dp"
+            android:paddingLeft="10dp"
+            android:text="Manchester City"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <ImageView
+            android:id="@+id/homeTeamBadge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toStartOf="@+id/home_team_name">
+
+
+        </ImageView>
+
+
+
+        <TextView
+            android:id="@+id/away_team_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="101dp"
+            android:layout_marginLeft="101dp"
+            android:layout_marginTop="48dp"
+            android:paddingLeft="10dp"
+            android:text="Manchester City"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_team_name">
+
+        </TextView>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
