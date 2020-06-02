@@ -3,12 +3,21 @@ This App generates the current premier league table and allows users view upcomi
 
 ## Functionality Implemented
   • Get data from XML/JSON web service using AsyncTask for threading
+  
   • Parsed JSON/XML feed, extracting team data,
+  
   • Displayed List object data in recycler view
+  
   • Search filter where user can search for a team based on input
+  
   • Progress Bar to indicate progress
+  
   • Floating Action Bar
+  
   • Save fixtures to database using SQLite
+  
   • Display saves fixtures
+  
   • Delete saved fixtures from database by swiping left or right
+  
   • Displays images from JSON
