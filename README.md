@@ -1,10 +1,10 @@
 # My-Premier-League
-This App generates the current premier league table and allows users view upcoming fixtures and save them
+This is an android app generates the current premier league table from an API and allows users view upcoming fixtures and save them.
 
 ## Functionality Implemented
-  • Get data from XML/JSON web service using AsyncTask for threading
+  • Get data from JSON web service using AsyncTask for threading
   
-  • Parsed JSON/XML feed, extracting team data,
+  • Parsed JSON feed, extracting team data,
   
   • Displayed List object data in recycler view
   
@@ -16,7 +16,7 @@ This App generates the current premier league table and allows users view upcomi
   
   • Save fixtures to database using SQLite
   
-  • Display saves fixtures
+  • Display saved fixtures
   
   • Delete saved fixtures from database by swiping left or right
   
